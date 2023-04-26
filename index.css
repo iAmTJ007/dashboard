@@ -1,1 +1,14 @@
-
+body{
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar{
+    background-color: rgb(212, 169, 61);
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+/* .main-area{
+   
+} */
