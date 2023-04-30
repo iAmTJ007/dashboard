@@ -1,13 +1,29 @@
 body{
+    font-family: 'Roboto', sans-serif;;
     display: flex;
     justify-content: space-between;
 }
 .sidebar{
-    background-color: rgb(212, 169, 61);
+    background-color: rgb(247, 152, 111);
+    color: white;
+    height: 100vh;
 }
 .logo{
     display: flex;
     justify-content: space-between;
+}
+.logo img{
+    width: 4.5rem;
+    filter: invert(1);
+}
+
+.menu a{
+    padding: 1rem;
+    padding-left: 0.2rem;
+    display: flex;
+    justify-content: left;
+    font-size: 0.6rem;
+    text-decoration: none;
 }
 /* .main-area{
    
