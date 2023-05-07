@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;;
     display: flex;
-    justify-content: space-between;
+    justify-content:left;
 }
 .sidebar{
     background-color: rgb(247, 152, 111);
@@ -24,6 +24,16 @@ body{
     justify-content: left;
     font-size: 0.6rem;
     text-decoration: none;
+}
+.right-upper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic{
+    display: flex;
+    justify-content: space-between;
+
 }
 /* .main-area{
    
