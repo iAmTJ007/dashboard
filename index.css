@@ -26,10 +26,11 @@ body{
     text-decoration: none;
 }
 .right{
-    padding-left: 2rem;
+    
     width: 100vw;
 }
 .right-upper{
+    padding-left: 2rem;
     display: flex;
     justify-content: space-between;
     font-size: 0.6rem;
@@ -53,6 +54,19 @@ body{
     display: grid;
     grid-template-columns: 3rem 3rem 3rem;
     gap: 3rem;
+}
+.right-down{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(225, 215, 215);
+}
+.right-down h1{  
+    font-size: 2rem;
+    font-family: 'Concert One', cursive;
+    color: black;    
+}
+.projects{
+    padding-left: 2rem;
 }
 /* .main-area{
    
